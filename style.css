@@ -1,0 +1,207 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem 1.5rem;
+}
+
+a,
+button {
+    color: white;
+}
+
+.image-clickable {
+    margin-right: auto;
+}
+
+.logo {
+    height: 29px;
+    width: 188px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.underlineEffects ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: table;
+    text-align: center;
+}
+
+.underlineEffects li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+
+.underlineEffects a {
+    font-family: "Lato", sans-serif;
+    line-height: 20px;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+.underlineEffects a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3.5px;
+    left: 50%;
+    position: absolute;
+    background: #e92c33;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+}
+
+.underlineEffects a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.underlineEffects ul li a:hover {
+    color: #5d5d5d;
+}
+
+/* Navication bar End */
+
+/* Header text started */
+.heading {
+    margin-top: 130px;
+}
+
+.header-txt {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    color: #393939;
+    font-size: 32px;
+}
+
+.header-txt2 {
+    color: #696969;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.eno-txt {
+    color: #ea2a35;
+}
+
+/* Header text end */
+
+/* Main services section started */
+.our-services {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #393939;
+    line-height: 49px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.service-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+
+}
+
+.service-heading {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #e92c33;
+    width: 250px;
+}
+
+/*Main services section end */
+
+/* Client section started */
+.head-text {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    color: #393939;
+    font-size: 35px;
+}
+
+.clinets {
+    background-color: #f5f3f3;
+}
+
+/* Client section end */
+
+.offer-header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #e92c33;
+}
+
+/* Contact form section started */
+.contact-header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #292929;
+}
+
+.submit {
+    width: 156px;
+    height: 60px;
+    background-color: #ea2a35;
+    color: #fff;
+    border: 0;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 33px;
+    font-weight: 30px;
+
+}
+
+.submit:hover {
+    background-color: white;
+    border: 3px solid #ea2a35;
+    color: #ea2a35;
+    font-weight: 700;
+    line-height: 33px;
+    font-weight: 30px;
+}
+
+.center-me {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* Contact form section end */
+
+.footer {
+    background-color: #292929;
+    color: #d2d2d2;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
